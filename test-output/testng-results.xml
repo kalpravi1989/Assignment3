@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-04T15:36:14 CST" name="Default suite" finished-at="2024-01-04T15:36:27 CST" duration-ms="13080">
+  <suite started-at="2024-01-04T17:20:04 CST" name="Default suite" finished-at="2024-01-04T17:20:12 CST" duration-ms="7376">
     <groups>
     </groups>
-    <test started-at="2024-01-04T15:36:14 CST" name="Default test" finished-at="2024-01-04T15:36:27 CST" duration-ms="13080">
-      <class name="standalone.Standalone">
-        <test-method is-config="true" signature="setup()[pri:0, instance:standalone.Standalone@7f010382]" started-at="2024-01-04T15:36:14 CST" name="setup" finished-at="2024-01-04T15:36:17 CST" duration-ms="3643" status="PASS">
+    <test started-at="2024-01-04T17:20:04 CST" name="Default test" finished-at="2024-01-04T17:20:12 CST" duration-ms="7376">
+      <class name="tests.Test1">
+        <test-method is-config="true" signature="loadPropertyFile()[pri:0, instance:tests.Test1@5ccddd20]" started-at="2024-01-04T17:20:04 CST" name="loadPropertyFile" finished-at="2024-01-04T17:20:04 CST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="test()[pri:0, instance:standalone.Standalone@7f010382]" started-at="2024-01-04T15:36:17 CST" name="test" finished-at="2024-01-04T15:36:27 CST" duration-ms="9281" status="PASS">
+        </test-method> <!-- loadPropertyFile -->
+        <test-method is-config="true" signature="launchDriver()[pri:0, instance:tests.Test1@5ccddd20]" started-at="2024-01-04T17:20:04 CST" name="launchDriver" finished-at="2024-01-04T17:20:08 CST" duration-ms="3817" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:standalone.Standalone@7f010382]" started-at="2024-01-04T15:36:27 CST" name="teardown" finished-at="2024-01-04T15:36:27 CST" duration-ms="136" status="PASS">
+        </test-method> <!-- launchDriver -->
+        <test-method signature="getAuthorDetails()[pri:0, instance:tests.Test1@5ccddd20]" started-at="2024-01-04T17:20:08 CST" name="getAuthorDetails" finished-at="2024-01-04T17:20:11 CST" duration-ms="2390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAuthorDetails -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.Test1@5ccddd20]" started-at="2024-01-04T17:20:11 CST" name="teardown" finished-at="2024-01-04T17:20:12 CST" duration-ms="1145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- standalone.Standalone -->
+      </class> <!-- tests.Test1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
